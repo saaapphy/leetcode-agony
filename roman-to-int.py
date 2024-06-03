@@ -20,10 +20,10 @@ def romanToInt(s: str) -> int:
   return total
   
 
-input1 = "III"     # 3    expected -
-input2 = "LVIII"   # 58   expected -
-input3 = "MCMXCIV" # 1994 expected -
+input1 = "III"     # 3    expected - PASS
+input2 = "LVIII"   # 58   expected - PASS
+input3 = "MCMXCIV" # 1994 expected - PASS
 
-print(romanToInt(input1))  # Output: 3
-print(romanToInt(input2))  # Output: 58
-print(romanToInt(input3))  # Output: 1994
+print(romanToInt(input1))
+print(romanToInt(input2))
+print(romanToInt(input3))
