@@ -8,7 +8,7 @@ def Sqrt(x) -> int:
   
   # inital 'guess' of sqrt
   g = x / 2
-  tol = 0.01 # tol => tolerance, aka accuracy
+  tol = 0.00001 # tol => tolerance, aka accuracy
   max_itr = 10000
   itr = 0
 

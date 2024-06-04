@@ -1,6 +1,6 @@
 # LeetCode #9 - Palindrome Number :: June 2, 2024
 
-def IsPalindrome(x: int):
+def IsPalindrome(x: int) -> bool:
   # throw false on all negatives
   if x <= 0:
     return False
