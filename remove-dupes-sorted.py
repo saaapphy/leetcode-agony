@@ -14,7 +14,3 @@ def RemoveDuplicates(nums: list[int]) -> int:
 
   # ret num of unique
   return i + 1
-
-n = [2,2,2,2,2,5,4,6,1,6,7,8,8,8,8,8]
-
-print(RemoveDuplicates(n))
